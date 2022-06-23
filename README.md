@@ -4,17 +4,7 @@
 
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
-To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/AliSolanki)
-
-[💬 Telegram](https://t.me/studentsamaj)
-
-[🐦 Twitter](https://twitter.com/thestripesnft)
-
-[ℹ️ Website](https://thestripesnft.com/)
-
-# The Stripes NFT minting dapp 🔥
+# Hokizuki Ape NFT minting dapp 🔥
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
@@ -48,21 +38,21 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0xda410d6cfefceb5619224fe06f7018cc3e3498ea",
+  "SCAN_LINK": "https://polygonscan.com/token/0xda410d6cfefceb5619224fe06f7018cc3e3498ea",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "The Stripes NFT",
+  "NFT_NAME": "Hokizuki Ape NFT",
   "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 9000000000000000000,
+  "DISPLAY_COST": 9,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/hokizuki",
   "SHOW_BACKGROUND": true
 }
 ```
@@ -91,8 +81,8 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>The Stripes NFT</title>
-<meta name="description" content="Mint your Stripes NFT" />
+<title>Hokizuki Ape NFT</title>
+<meta name="description" content="Mint your Hokizuki Ape NFT" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
